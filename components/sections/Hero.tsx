@@ -5,25 +5,6 @@ import Image from "next/image";
 export default function Hero() {
     return (
         <section className="hero" id="hero">
-            <div className="hero-image-section">
-                <div className="large-container">
-                    <div className="hero-image-placeholder">
-                        <Image
-                            src="/ver.png"
-                            alt="VenChecker 4-in-1 STI self-test kit"
-                            width={444}
-                            height={288}
-                            priority
-                        />
-                    </div>
-
-                    <p className="caption">
-                        20 test<br />
-                        FIG 01 : Venchecker package <br />
-                    </p>
-                </div>
-            </div>
-
             <div className="hero-copy section">
                 <div className="container center">
                     <Eyebrow>
