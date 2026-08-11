@@ -1,5 +1,6 @@
 import Button from "@/components/ui/Button";
 import Eyebrow from "@/components/ui/Eyebrow";
+import Image from "next/image";
 
 export default function Hero() {
     return (
@@ -7,14 +8,18 @@ export default function Hero() {
             <div className="hero-image-section">
                 <div className="large-container">
                     <div className="hero-image-placeholder">
-                        <span>VENChecker</span>
-                        <small>Product image</small>
+                        <Image
+                            src="/ver.png"
+                            alt="VenChecker 4-in-1 STI self-test kit"
+                            width={444}
+                            height={288}
+                            priority
+                        />
                     </div>
 
                     <p className="caption">
-                        4-in-1 rapid screening
-                        <br />
-                        One blood sample · Four screening targets
+                        20 test<br />
+                        FIG 01 : Venchecker package <br />
                     </p>
                 </div>
             </div>
@@ -38,13 +43,15 @@ export default function Hero() {
                     </p>
 
                     <div className="hero-actions">
-                        <Button href="#contact">
+                        <Button href="https://wa.me/2349033414310"
+                            target=" ">
                             Get VenChecker
                         </Button>
 
                         <Button
                             href="#how-it-works"
                             variant="secondary"
+                            target=" "
                         >
                             How it works
                         </Button>

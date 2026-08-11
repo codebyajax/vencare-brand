@@ -17,15 +17,15 @@ export default function Contact() {
                 </h2>
 
                 <p>
-                    Get information about VenChecker, availability
-                    and how to use the kit.
+                    Questions about your order, delivery or the product?
                 </p>
 
                 <div className="contact-button-wrapper">
-                    <Button href="#">
+                    <Button href="https://wa.me/2349033414310" target="_blank">
                         Contact on WhatsApp
                     </Button>
                 </div>
+
 
                 <p className="micro-copy">
                     Product information · Availability · Delivery

@@ -6,14 +6,6 @@ export default function Footer() {
                     V
                 </div>
 
-                <p className="footer-contact">
-                    Questions about your order, delivery or the product?
-                    <br />
-
-                    <a href="#contact">
-                        Contact us
-                    </a>
-                </p>
 
                 <p className="footer-small">
                     © {new Date().getFullYear()} VenChecker

@@ -1,19 +1,40 @@
+import Image from "next/image";
+
 export default function ProductGallery() {
     return (
         <section className="section visual-section">
             <div className="large-container">
                 <div className="visual-grid">
                     <div className="visual-card visual-large">
-                        <span>Product</span>
+                        <Image
+                            src="/aparatus.png"
+                            alt="VenChecker 4-in-1 STI self-test kit"
+                            width={654}
+                            height={456}
+                            priority
+                        />
                     </div>
 
                     <div className="visual-column">
-                        <div className="visual-card">
-                            <span>Finger-prick</span>
+                        <div className="visual-card  p-0!">
+                            <Image
+                                src="/fp.png"
+                                alt="VenChecker 4-in-1 STI self-test kit"
+                                width={654}
+                                height={456}
+                                priority
+                                className="object-cover cover-top"
+                            />
                         </div>
 
                         <div className="visual-card">
-                            <span>4-in-1 screening</span>
+                            <Image
+                                src="/hero-img.png"
+                                alt="VenChecker 4-in-1 STI self-test kit"
+                                width={624}
+                                height={416}
+                                priority
+                            />
                         </div>
                     </div>
                 </div>
@@ -26,4 +47,4 @@ export default function ProductGallery() {
             </div>
         </section>
     );
-  }
+}
