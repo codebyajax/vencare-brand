@@ -150,6 +150,10 @@ a {
    HERO
 -------------------------------------------------------------- */
 
+.hero {
+  height: 100dvh;
+}
+
 .hero-image-section {
   padding: 12vh 0;
 
@@ -797,6 +801,10 @@ h3 {
 
   h1 {
     font-size: 34px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
   }
 
   .hero-image-placeholder span {

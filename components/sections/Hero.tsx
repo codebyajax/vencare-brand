@@ -1,6 +1,5 @@
 import Button from "@/components/ui/Button";
 import Eyebrow from "@/components/ui/Eyebrow";
-import Image from "next/image";
 
 export default function Hero() {
     return (
