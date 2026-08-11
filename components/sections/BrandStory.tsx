@@ -1,4 +1,4 @@
-import Eyebrow from "@/app/components/ui/Eyebrow";
+import Eyebrow from "@/components/ui/Eyebrow";
 
 export default function BrandStory() {
     return (

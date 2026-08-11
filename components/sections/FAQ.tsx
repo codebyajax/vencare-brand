@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import SectionHeading from "@/app/components/ui/SectionHeading";
+import SectionHeading from "@/components/ui/SectionHeading";
 
 interface FAQItem {
     question: string;

@@ -1,5 +1,5 @@
-import Button from "@/app/components/ui/Button";
-import Eyebrow from "@/app/components/ui/Eyebrow";
+import Button from "@/components/ui/Button";
+import Eyebrow from "@/components/ui/Eyebrow";
 
 export default function Contact() {
     return (

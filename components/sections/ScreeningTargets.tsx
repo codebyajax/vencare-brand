@@ -1,4 +1,4 @@
-import SectionHeading from "@/app/components/ui/SectionHeading";
+import SectionHeading from "@/components/ui/SectionHeading";
 
 interface ScreeningTarget {
     number: string;
