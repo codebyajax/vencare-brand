@@ -337,7 +337,7 @@ h3 {
 -------------------------------------------------------------- */
 
 .intro-section {
-  padding-top: var(--space-large);
+  padding-top: 0px;
   padding-bottom: var(--space-large);
 }
 
@@ -708,13 +708,6 @@ h3 {
     gap: 8px;
   }
 
-  .hero-image-section {
-    padding: 8vh 0;
-  }
-
-  .hero-image-placeholder {
-    margin: 8vh auto 30px;
-  }
 
   h1 {
     font-size: 38px;
