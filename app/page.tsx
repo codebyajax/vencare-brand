@@ -14,10 +14,7 @@ import Contact from "@/components/sections/Contact";
 export default function Home() {
   return (
     <>
-      <Header />
-
       <main>
-        <Hero />
         <Introduction />
         <ScreeningTargets />
         <BrandStory />
